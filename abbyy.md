@@ -21,7 +21,7 @@ Perform the following steps to review and clean files in Abbyy. Track all progre
 
 ![delete_blank](https://user-images.githubusercontent.com/64552353/178784501-dd9bbca0-d0ea-46b8-9e7b-c45c73ce5261.png)
 
-3. **Review pages with unrecognized elements.** Red boxes indicate that parts of text are unrecognized; recognized text will show up in green boxes. To edit, determine which category the pages with unrecognized elements fall under: 
+2. **Review pages with unrecognized elements.** Red boxes indicate that parts of text are unrecognized; recognized text will show up in green boxes. To edit, determine which category the pages with unrecognized elements fall under: 
     * If the page has **unrecognized elements AND recognized text,** right-click on the red boxes around the unrecognized elements and click “Delete.” 
     * If the page has **unrecognized text you want to keep,** use the editing panel on the right-hand side of the screen to add text to the page. If the unrecognized text you want to keep is more than a few words or paragraphs (i.e. a page or multiple pages), make a note in the worklog spreadsheet so the corresponding book can be reviewed or re-scanned.
     * If the page **ONLY has unrecognized elements you do not want to keep (e.g. images or icons),** delete the whole page as instructed for blank pages.
@@ -53,14 +53,14 @@ Perform the following steps to review and clean files in Abbyy. Track all progre
     * If the book is divided into parts, note the part, the part title (if applicable), the chapter, and the chapter title  (if applicable), as in the following example: ![Chapter_Header](https://user-images.githubusercontent.com/64552353/178782938-e60eac75-b41c-4876-a3d1-a05542521fce.png)
     * If there are no chapter headings, determine how the book is split into sections–e.g. noticeable line breaks, asterisks or other characters separating substantial parts–and add CHAPTER # headings each time a new section begins. 
 
-6. **Automate header/footer recognition** so these elements (such as page numbers) can be removed from files. To automate recognition, go to Tools -> Options -> OCR -> Check box next to “Headers and Footers” under section “Detection of Structural Elements.” Re-run recognition (Recognition -> Recognize All Pages) and header and footer bars should appear on right-hand side text editor. 
+7. **Automate header/footer recognition** so these elements (such as page numbers) can be removed from files. To automate recognition, go to Tools -> Options -> OCR -> Check box next to “Headers and Footers” under section “Detection of Structural Elements.” Re-run recognition (Recognition -> Recognize All Pages) and header and footer bars should appear on right-hand side text editor. 
 
     *Example of header with title and page number recognized:* ![Picture1](https://user-images.githubusercontent.com/64552353/178782579-23af51fe-eb41-450e-b452-af9bb710945d.png)
 
 
     This way, when you’re ready to export to plain text files, the headers/footers can easily be removed by going to Tools -> Options -> Format Settings -> TXT and uncheck the box next to “Keep Headers and Footers.”
 
-7. **Manually remove unrecognized headers/footers.** Skim pages to catch page numbers and other headers/footers that are included in the body of text instead of being recognized as a header or footer. Manually delete these from the right-hand side text editor. 
+8. **Manually remove unrecognized headers/footers.** Skim pages to catch page numbers and other headers/footers that are included in the body of text instead of being recognized as a header or footer. Manually delete these from the right-hand side text editor. 
       * The manual removal process can be supported by creating a set “area” that approximates the position of the text WITHOUT the header/footer and applying it to all pages. To do this, highlight the area of text to recognize and save it as a template by going to Area -> Save Area Template. To recognize that same area across all pages of the project, go to Area -> Load Area Template, select the template and choose "Apply to All Pages," and re-recognize all pages. However, since each page will have slightly different margins, you will still need to skim pages to make sure area has not caught header/footer (and still includes all other text). 
 
 ## Save Files in Abbyy As OCR Project
