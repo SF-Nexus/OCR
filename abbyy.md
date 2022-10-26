@@ -26,7 +26,7 @@ Perform the following steps to review and clean files in Abbyy. Track all progre
     * If the page has **unrecognized text you want to keep,** use the editing panel on the right-hand side of the screen to add text to the page. If the unrecognized text you want to keep is more than a few words or paragraphs (i.e. a page or multiple pages), make a note in the worklog spreadsheet so the corresponding book can be reviewed or re-scanned.
     * If the page **ONLY has unrecognized elements you do not want to keep (e.g. images or icons),** delete the whole page as instructed for blank pages. As you delete them, make a note of any **maps or meaningful illustrations** in the worklog for possible future preservation.
 
-3. **Skim pages to see if any are significantly ripped, blurred, or otherwise cut off.** These pages may be recognized, but OCR may not be accurate. Manually correct and/or make a note in the worklog when physical book is needed for review. 
+3. **Skim pages to see if any are missing, significantly ripped, blurred, or otherwise cut off.** These pages may be recognized, but OCR may not be accurate. Manually correct and/or make a note in the worklog when physical book is needed for review. 
 
 ![close_cuts](https://user-images.githubusercontent.com/64552353/178785392-eaf270f8-bfb3-42b1-b5bc-3ea17574b912.png)
 
