@@ -57,7 +57,6 @@ Perform the following steps to review and clean files in Abbyy. Track all progre
 
     *Example of header with title and page number recognized:* ![Picture1](https://user-images.githubusercontent.com/64552353/178782579-23af51fe-eb41-450e-b452-af9bb710945d.png)
 
-
     This way, when you’re ready to export to plain text files, the headers/footers can easily be removed by going to Tools -> Options -> Format Settings -> TXT and uncheck the box next to “Keep Headers and Footers.”
 
 8. **Manually remove unrecognized headers/footers.** Skim pages to catch page numbers and other headers/footers that are included in the body of text instead of being recognized as a header or footer. Manually delete these from the right-hand side text editor. 
@@ -67,5 +66,3 @@ Perform the following steps to review and clean files in Abbyy. Track all progre
 1. With file open in Abbyy, go to File -> Save OCR Project 
 2. Choose the location in which you want to save the project (ex. Novel Database server -> Digitized Books -> Round # -> Batch #) as file path and create new folder named OCR Files.
 3. Save your OCR project in new OCR Files folder with chosen title (ex. SSFCBZ201710000###_[first few chars of author/book title])
-
-
