@@ -2,11 +2,11 @@
 ## Introduction
 [ABBYY Fine Reader](https://pdf.abbyy.com/) can take jpgs, tiffs, and pdfs and translate them into computer readable text through a process called Optical Character Recognition (OCR). [Here's a brief introduction to OCR.](https://www.youtube.com/watch?v=jO-1rztr4O0)
 
-[In this project,](https://lcdssgeo.com/omeka-s/s/scifi/page/digitizing-science-fiction) Abbyy Fine Reader was used to perform OCR on a corpus of science fiction books. The books were  scanned and saved to a server as TIFF files, and the OCR process was tracked through a master worklog: https://docs.google.com/spreadsheets/d/1eVoiX9hWVC9g8IIhjAuAf8DTLzX5NLS3FGC9zk-q6Q8/edit?usp=sharing. 
+[In this project,](https://lcdssgeo.com/omeka-s/s/scifi/page/digitizing-science-fiction) Abbyy Fine Reader was used to perform OCR on a corpus of science fiction books. The books were  scanned and saved to a server as TIFF files, and the OCR process was tracked through a master worklog.
 
 
 ## Open Files in Abbyy OCR Editor
-* Navigate to the server where files are stored (ex. Novel Database server ((\\lib-dss-nas) -> Digitized Books -> Round # -> Batch #)
+* Navigate to the server where files are stored (ex. Novel Database server -> Digitized Books -> Round # -> Batch #)
 * Open the folder corresponding to the file you want to review (ex. SSFCBZ201710000### -> TIFFs to OCR) 
 * Select all TIFF files in folder, right click, and select "Open in OCR Editor Abbyy Fine Reader." Abbyy will now open with selected files ready for cleaning. 
 
